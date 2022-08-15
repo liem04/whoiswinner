@@ -24,6 +24,7 @@ Ví dụ:
 - Shift
 
 ## Cài đặt
+Required: php >= 8.0
 ```
 composer install
 ```
