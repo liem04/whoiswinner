@@ -24,7 +24,14 @@ Ví dụ:
 - Shift
 
 ## Cài đặt
-- composer install
+```
+composer install
+```
+- Chạy simple version:
+```
+php SimpleVersion.php < test.txt
+```
+
 - Chạy với cách dùng OOP thường: 
 ```
 php OOPVersionSolver.php < test.txt
