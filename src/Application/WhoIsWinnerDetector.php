@@ -26,8 +26,8 @@ class WhoIsWinnerDetector
 
     private function tabIsCorrect(Expression $expression): bool
     {
-        $removedExpress = $expression->remove($this->remover);
+        $removedExpression = $expression->remove($this->remover);
 
-        return $removedExpress->calculate() === $this->remover->remove($expression->calculate());
+        return $removedExpression->calculate() === $this->remover->remove($expression->calculate());
     }
 }
