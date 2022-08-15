@@ -1,3 +1,4 @@
+## Đề
 ### Chữ số vô vị
 Tab là người rất ghét chữ số 0. Cậu ta nghĩ đây là chữ số vô vị nhất trong 10 chữ số. Nhưng Shift lại cho rằng chữ số 0 là một chữ số ý nghĩa, chỉ cần thêm bớt 1 chữ số 0, giá trị của một số hoàn toàn thay đổi.
 Tuy nhiên, Tab nói rằng có nhiều phép tính dù có chữ số 0 hay không thì tính đúng đắn của phép vẫn không thay đổi.
@@ -21,3 +22,14 @@ Ví dụ:
 
 Đầu ra
 - Shift
+
+## Cài đặt
+- composer install
+- Chạy với cách dùng OOP thường: 
+```
+php OOPVersionSolver.php < test.txt
+```
+- Chạy dùng DDD: 
+```
+php DDDVersion.php < test.txt
+```
